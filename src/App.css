@@ -1,0 +1,30 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  margin: 0;
+  border-bottom: 1px solid #444444;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+  background-color: #1e1e1e;
+
+  
+}
+
+.navbar{
+  border: #ffffff 1px solid;
+}
